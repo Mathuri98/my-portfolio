@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+
+}
+
+div.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("http://getwallpapers.com/wallpaper/full/1/d/a/165821.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#top {
+    
+    text-align: center;
+    font-size: 3em;
+    color: white;
+   
+
+}
+
+#bottom {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+}
+
+a.nav-link:hover {
+    /* background-color: black; */
+    font-size: 2em;
+}
+
+nav {
+    position: relative;
+}
+
+.header-about-me {
+    display: flex;
+    background-color: none;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+.row-about-me {
+    display: flex;
+
+}
+
+.column {
+    width: 50%;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.column-left {
+    width: 50%;
+    background-color: lightcoral;
+    margin-left: 20px;
+}
+
+img {
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.column-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lavenderblush;
+    padding: 20px;
+    color: black;
+    margin-right: 20px;
+}
+
+.header-my-favourites {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: cornsilk;
+    margin-top: 50px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    background-color: cornsilk;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.card {
+    background-color: firebrick;
+}
+
+
+.card img {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-heading {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    height: 40px;
+}
+
+.card-text {
+    padding-top: 0px;
+}
+
+.footer {
+    text-align: center;
+    background-color: rosybrown;
+    padding-bottom: 40px;
+}
+
+h2 {
+    padding: 40px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+.form {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    /* background-color: slategray; */
+}
+
+.button {
+    position: absolute;
+    right: 35%;
+
+}
